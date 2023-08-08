@@ -4,6 +4,11 @@
 
 Similar to my other "5 Minutes of Less" repositories, the rationale is to demonstrate and explain, with minimal means, things that many of us developers seem to think are hard. By driving down the difficulty and concretely showing examples, I hope to make these concepts easier to understand and learn more about.
 
+## Five Minutes or Less
+
+- [SOLID](https://github.com/mikaelvesavuori/5-minutes-or-less-solid)
+- [TypeScript/JavaScript patterns and features](https://github.com/mikaelvesavuori/5-minutes-or-less-typescript-js)
+
 ## Running the code
 
 Clone the repo.
