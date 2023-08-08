@@ -23,7 +23,7 @@ Or, if you're lazy, you can also copy the individual TS file's contents into the
 
 In short, patterns are ways of organizing code that are identified and (often) catalogued. Typically, patterns, once named become known in the software community. Many patterns have existed for a very long time, and patterns are less fragile to the course of time than implementations and languages, which change year by year, decade by decade.
 
-No one can work outside of patterns — ultimately all code has has some pattern(s).
+No one can work outside of patterns — ultimately all code has some pattern(s) in it.
 
 Design Patterns are part of the software engineering canon, and are useful bits of practical knowledge that help in "blocking out" solution spaces for problems. Applying them haphazardly, clumsily, and without thinking about the specifics of our problem space will not lead to good use of these.
 
@@ -64,29 +64,29 @@ The flow is: `Creational patterns` > `Structural patterns` > `Behavioral pattern
 
 | Purpose    | Design Pattern   | Aspect(s) That Can Vary                                                                    |
 | ---------- | ---------------- | ------------------------------------------------------------------------------------------ |
-| Creational | Abstract Factory | families of product objects                                                                |
-|            | Builder          | how a composite object gets created                                                        |
-|            | Factory Method   | subclass of object that is instantiated                                                    |
-|            | Prototype        | class of object that is instantiated                                                       |
-|            | Singleton        | the sole instance of a class                                                               |
-| Structural | Adapter          | interface to an object                                                                     |
-|            | Bridge           | implementation of an object                                                                |
-|            | Composite        | structure and composition of an object                                                     |
-|            | Decorator        | responsibilities of an object without subclassing                                          |
-|            | Facade           | interface to a subsystem                                                                   |
-|            | Flyweight        | storage costs of objects                                                                   |
-|            | Proxy            | how an object is accessed; its location                                                    |
-| Behavioral | Chain of Responsibility  | object that can fulfill a request                                                  |
-|            | Command          | when and how a request is fulfilled                                                        |
-|            | Interpreter      | grammar and interpretation of a language                                                   |
-|            | Iterator         | how an aggregate's elements are accessed, traversed                                        |
-|            | Mediator         | how and which objects interact with each other                                             |
-|            | Memento          | what private information is stored outside an object, and when                             |
-|            | Observer         | number of objects that depend on another object; how the dependent objects stay up to date |
-|            | State            | states of an object                                                                        |
-|            | Strategy         | an algorithm                                                                               |
-|            | Template Method  | steps of an algorithm                                                                      |
-|            | Visitor          | operations that can be applied to object(s) without changing their class(es)               |
+| Creational | [Abstract Factory](/src/creational/abstract-factory.ts) | families of product objects                                                                |
+|            | [Builder](/src/creational/builder.ts)          | how a composite object gets created                                                        |
+|            | [Factory Method](/src/creational/factory.ts)   | subclass of object that is instantiated                                                    |
+|            | [Prototype](/src/creational/prototype.ts)        | class of object that is instantiated                                                       |
+|            | [Singleton](/src/creational/singleton.ts)        | the sole instance of a class                                                               |
+| Structural | [Adapter](/src/structural/adapter.ts)          | interface to an object                                                                     |
+|            | [Bridge](/src/structural/bridge.ts)           | implementation of an object                                                                |
+|            | [Composite](/src/structural/composite.ts)        | structure and composition of an object                                                     |
+|            | [Decorator](/src/structural/decorator.ts)        | responsibilities of an object without subclassing                                          |
+|            | [Facade](/src/structural/facade.ts)           | interface to a subsystem                                                                   |
+|            | [Flyweight](/src/structural/flyweight.ts)        | storage costs of objects                                                                   |
+|            | [Proxy](/src/structural/proxy.ts)            | how an object is accessed; its location                                                    |
+| Behavioral | [Chain of Responsibility](/src/behavioral/chain-of-responsibility.ts)  | object that can fulfill a request                                                  |
+|            | [Command](/src/behavioral/command.ts)          | when and how a request is fulfilled                                                        |
+|            | [Interpreter](/src/behavioral/interpreter.ts)      | grammar and interpretation of a language                                                   |
+|            | [Iterator](/src/behavioral/iterator.ts)         | how an aggregate's elements are accessed, traversed                                        |
+|            | [Mediator](/src/behavioral/mediator.ts)         | how and which objects interact with each other                                             |
+|            | [Memento](/src/behavioral/memento.ts)          | what private information is stored outside an object, and when                             |
+|            | [Observer](/src/behavioral/observer.ts)         | number of objects that depend on another object; how the dependent objects stay up to date |
+|            | [State](/src/behavioral/state.ts)            | states of an object                                                                        |
+|            | [Strategy](/src/behavioral/strategy.ts)         | an algorithm                                                                               |
+|            | [Template Method](/src/behavioral/template-method.ts)  | steps of an algorithm                                                                      |
+|            | [Visitor](src/behavioral/visitor.ts)          | operations that can be applied to object(s) without changing their class(es)               |
 
 ## Design pattern relationships
 
@@ -111,13 +111,13 @@ If you aren't an experienced object-oriented designer, then start with the simpl
 - Decorator
 ```
 
-My own top 5 recommendations to start with, in terms of usefulness and relative ease, would be:
+My own top 5 recommendations (A-Z order), in terms of usefulness and relative ease, would be:
 
-- Factory
-- Facade
-- Strategy
-- Mediator
-- Template
+- [Facade](/src/structural/facade.ts)
+- [Factory](/src/creational/factory.ts)
+- [Mediator](/src/behavioral/mediator.ts)
+- [Strategy](/src/behavioral/strategy.ts)
+- [Template Method](/src/behavioral/template-method.ts)
 
 ## Transparency
 

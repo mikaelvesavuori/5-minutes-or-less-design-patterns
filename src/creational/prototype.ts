@@ -17,6 +17,10 @@
  * Again: Once upon a time is JavaScript land, you would see prototype extension quite
  * a lot, but it's becoming less of a thing, probably because the language is
  * getting more and more OOP features and we see less JS-weird/idiomatic stuff.
+ *
+ * @see https://refactoring.guru/design-patterns/prototype
+ * @see https://en.wikipedia.org/wiki/Prototype_pattern
+ * @see Page 117 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function prototypeDemo() {
   const zombie = {

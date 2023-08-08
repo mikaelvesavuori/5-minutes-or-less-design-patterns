@@ -19,6 +19,10 @@
  *
  * Our demo this time is of a travel plan that needs to accomodate both solo and
  * family plans.
+ *
+ * @see https://refactoring.guru/design-patterns/template-method
+ * @see https://en.wikipedia.org/wiki/Template_method_pattern
+ * @see Page 325 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function templateDemo() {
   abstract class TravelPlan {

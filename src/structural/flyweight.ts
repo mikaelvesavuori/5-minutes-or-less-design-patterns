@@ -23,6 +23,10 @@
  *
  * Note that one drawback is that we have to make more
  * look-ups to find the correct Flyweight.
+ *
+ * @see https://refactoring.guru/design-patterns/flyweight
+ * @see https://en.wikipedia.org/wiki/Flyweight_pattern
+ * @see Page 195 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function flyweightDemo() {
   interface CoffeeOrder {

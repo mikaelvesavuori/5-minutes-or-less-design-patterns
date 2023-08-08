@@ -14,6 +14,10 @@
  * In our case, the "leafs" will be the employees, and the "composites" are
  * the teams (even the company is just a team of teams). The "component"
  * each object uses is the `Employee` interface.
+ *
+ * @see https://refactoring.guru/design-patterns/composite
+ * @see https://en.wikipedia.org/wiki/Composite_pattern
+ * @see Page 163 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function compositeDemo() {
   // This interface (component) is what can be manipulated in our composites.

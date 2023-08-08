@@ -27,6 +27,9 @@
  * of buttons we want for some application. In this case, the Factory at least
  * brings a clear, singular interface to button creation.
  *
+ * @see https://refactoring.guru/design-patterns/factory-method
+ * @see https://en.wikipedia.org/wiki/Factory_method_pattern
+ * @see Page 107 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function factoryDemo() {
   class ButtonFactory {

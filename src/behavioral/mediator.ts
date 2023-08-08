@@ -20,6 +20,9 @@
  * In our demo, we'll check a chat room with users. We'll defer to the chat room,
  * acting as a mediator, to actually send messages.
  *
+ * @see https://refactoring.guru/design-patterns/mediator
+ * @see https://en.wikipedia.org/wiki/Mediator_pattern
+ * @see Page 273 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function mediatorDemo() {
   interface ChatMediator {

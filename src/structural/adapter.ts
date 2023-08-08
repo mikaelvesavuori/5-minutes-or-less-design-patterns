@@ -21,6 +21,10 @@
  * stay "unpolluted" in their data, contracts, and interfaces. Instead, by
  * having the adapter in-between it will be responsibility of it to take care
  * of that translation.
+ *
+ * @see https://refactoring.guru/design-patterns/adapter
+ * @see https://en.wikipedia.org/wiki/Adapter_pattern
+ * @see Page 139 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function adapterDemo() {
   // Interfaces and wiring

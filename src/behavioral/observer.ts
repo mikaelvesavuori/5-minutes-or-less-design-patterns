@@ -19,6 +19,10 @@
  * up calling a public method on the recipients, which you could wire up to do
  * any changes needed (act on data; update state...). In this case, we'll simply
  * log out that the user received the news.
+ *
+ * @see https://refactoring.guru/design-patterns/observer
+ * @see https://en.wikipedia.org/wiki/Observer_pattern
+ * @see Page 293 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function observerDemo() {
   // Observer interface

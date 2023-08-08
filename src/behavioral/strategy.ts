@@ -17,8 +17,12 @@
  * Because it's closely related to dependency injection, you get all the same
  * benefits, like better composed code, easier testing, and more predictable behavior.
  *
+ * The example will use a case that makes a lot of sense for a Strategy:
+ * picking the appropriate payment "strategy"/implementation.
  *
- *
+ * @see https://refactoring.guru/design-patterns/strategy
+ * @see https://en.wikipedia.org/wiki/Strategy_pattern
+ * @see Page 315 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function strategyDemo() {
   interface PaymentStrategy {

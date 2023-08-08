@@ -9,6 +9,10 @@
  *
  * In our example, we'll make a burger the way I like it. Using the
  * same builder, you can make one to your own liking too!
+ *
+ * @see https://refactoring.guru/design-patterns/builder
+ * @see https://en.wikipedia.org/wiki/Builder_pattern
+ * @see Page 97 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function builderDemo() {
   class Burger {

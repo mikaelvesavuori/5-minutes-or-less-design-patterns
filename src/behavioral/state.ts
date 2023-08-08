@@ -18,6 +18,10 @@
  * In closing, It's quite straightforward to implement, and it's useful in numerous cases.
  *
  * Below, let's check it out for a lighting system.
+ *
+ * @see https://refactoring.guru/design-patterns/state
+ * @see https://en.wikipedia.org/wiki/State_pattern
+ * @see Page 305 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function stateDemo() {
   interface LightState {

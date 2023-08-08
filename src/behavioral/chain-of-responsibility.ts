@@ -13,6 +13,10 @@
  * the two example implementations for Basic and Premium support.
  * By setting this, we can funnel a request that began at a
  * "lower level" into higher levels.
+ *
+ * @see https://refactoring.guru/design-patterns/chain-of-responsibility
+ * @see https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
+ * @see Page 223 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function corDemo() {
   // The "abstraction", the handler interface

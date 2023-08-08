@@ -18,6 +18,9 @@
  * that involve a DSL use case!
  *
  * We'll look at a basic math (arithmetic) processor here.
+ *
+ * @see https://en.wikipedia.org/wiki/Interpreter_pattern
+ * @see Page 243 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function interpreterDemo() {
   // Globally known to the interpreter

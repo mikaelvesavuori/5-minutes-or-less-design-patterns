@@ -10,6 +10,10 @@
  * While it's possible to simplify the pattern to directly executing
  * commands, it's a feature of the pattern to keep tabs on what commands
  * are being passed into classes.
+ *
+ * @see https://refactoring.guru/design-patterns/command
+ * @see https://en.wikipedia.org/wiki/Command_pattern
+ * @see Page 233 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function commandDemo() {
   interface Command {

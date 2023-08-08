@@ -17,6 +17,10 @@
  *
  * The result is a highly contained and separated distinction between the
  * composition and usage of classes.
+ *
+ * @see https://refactoring.guru/design-patterns/abstract-factory
+ * @see https://en.wikipedia.org/wiki/Abstract_factory_pattern
+ * @see Page 87 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function abstractFactoryDemo() {
   // Interfaces

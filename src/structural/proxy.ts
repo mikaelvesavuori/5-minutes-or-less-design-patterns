@@ -13,6 +13,10 @@
  * In Design Patterns, the example is given of a resource-intensive image that is
  * only loaded when needed, though we still require using it to know its size etc.
  * We will use the same kind of example here.
+ *
+ * @see https://refactoring.guru/design-patterns/proxy
+ * @see https://en.wikipedia.org/wiki/Proxy_pattern
+ * @see Page 207 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function proxyDemo() {
   interface Image {

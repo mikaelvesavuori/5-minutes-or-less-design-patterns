@@ -14,6 +14,10 @@
  *
  * In the example we'll use look at getting ice cream with,
  * or without, extra toppings.
+ *
+ * @see https://refactoring.guru/design-patterns/decorator
+ * @see https://en.wikipedia.org/wiki/Decorator_pattern
+ * @see Page 175 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function decoratorDemo() {
   // The ice cream interface

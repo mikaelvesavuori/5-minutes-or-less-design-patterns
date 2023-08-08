@@ -23,6 +23,10 @@
  *
  * Let's look at a house as an example. We don't care about the low-level
  * stuff like plumbing, just that we _have_ plumbing and that it works.
+ *
+ * @see https://refactoring.guru/design-patterns/facade
+ * @see https://en.wikipedia.org/wiki/Facade_pattern
+ * @see Page 185 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function facadeDemo() {
   class PlumbingSystem {

@@ -15,6 +15,10 @@
  *
  * The main benefit of this pattern is that it simplifies the core logic of the
  * Originator, since we can push out parts outside of it.
+ *
+ * @see https://refactoring.guru/design-patterns/memento
+ * @see https://en.wikipedia.org/wiki/Memento_pattern
+ * @see Page 283 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function mementoDemo() {
   class EditorMemento {

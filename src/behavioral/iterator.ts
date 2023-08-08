@@ -15,8 +15,13 @@
  * to add entirely custom iteration capabilities, which makes sense
  * when we deal with custom-made objects.
  *
- * For our example, we are going to see a music playlist.
- * In the music playlist we can asdf.
+ * For our example, we are going to see a music playlist which will
+ * allow getting the next song as long as there are song left
+ * to play in the list.
+ *
+ * @see https://refactoring.guru/design-patterns/iterator
+ * @see https://en.wikipedia.org/wiki/Iterator_pattern
+ * @see Page 257 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function iteratorDemo() {
   interface Playlist {

@@ -20,6 +20,10 @@
  * if this is the correct pattern for your use-case!
  *
  * In the example we'll look at a Settings object which will be shared across all instances.
+ *
+ * @see https://refactoring.guru/design-patterns/singleton
+ * @see https://en.wikipedia.org/wiki/Singleton_pattern
+ * @see Page 127 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function singletonDemo() {
   type Mode = 'dark' | 'light';

@@ -24,6 +24,10 @@
  * details and interfaces start spilling out uncontrollably), chaotic indirection of
  * classes and visitors, and the possibility of breaking domain logic away from their
  * logical constructs/classes (which is not a good thing).
+ *
+ * @see https://refactoring.guru/design-patterns/visitor
+ * @see https://en.wikipedia.org/wiki/Visitor_pattern
+ * @see Page 331 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function visitorDemo() {
   interface ZooAnimal {

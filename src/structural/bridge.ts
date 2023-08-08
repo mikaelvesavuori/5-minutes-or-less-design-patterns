@@ -13,6 +13,10 @@
  *
  * You know that you have a Bridge when you can independently evolve lower-level
  * classes based off of the bridging interface.
+ *
+ * @see https://refactoring.guru/design-patterns/bridge
+ * @see https://en.wikipedia.org/wiki/Bridge_pattern
+ * @see Page 151 in `Design Patterns - Elements of Reusable Object-Oriented Software`
  */
 function bridgeDemo() {
   interface ElectronicDevice {
