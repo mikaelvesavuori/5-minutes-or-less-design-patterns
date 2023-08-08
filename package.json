@@ -1,7 +1,7 @@
 {
   "name": "5-minutes-or-less-design-patterns",
   "version": "1.0.0",
-  "description": "All of the 23 'Gang of Four' design patterns, exemplified.",
+  "description": "All of the 23 'Gang of Four' design patterns, exemplified in less than 5 minutes each.",
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "keywords": [

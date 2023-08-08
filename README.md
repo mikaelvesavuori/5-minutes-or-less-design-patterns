@@ -1,6 +1,6 @@
-# Design Patterns in TypeScript
+# 5 Minutes or Less: Design Patterns in TypeScript
 
-## All of the 23 "Gang of Four" Design Patterns, exemplified
+## All of the 23 "Gang of Four" Design Patterns, exemplified in less than 5 minutes each
 
 Similar to my other "5 Minutes of Less" repositories, the rationale is to demonstrate and explain, with minimal means, things that many of us developers seem to think are hard. By driving down the difficulty and concretely showing examples, I hope to make these concepts easier to understand and learn more about.
 
