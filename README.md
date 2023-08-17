@@ -8,6 +8,7 @@ Similar to my other "5 Minutes of Less" repositories, the rationale is to demons
 
 - [SOLID](https://github.com/mikaelvesavuori/5-minutes-or-less-solid)
 - [TypeScript/JavaScript patterns and features](https://github.com/mikaelvesavuori/5-minutes-or-less-typescript-js)
+- [Refactoring](https://github.com/mikaelvesavuori/5-minutes-or-less-refactoring)
 
 ## Running the code
 
